@@ -65,7 +65,7 @@ function displayProducts(productsToDisplay) {
 
   productsToDisplay.forEach((product) => {
     const card = `
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" id="productsContainer">
                 <div class="card">
                     <img src="${product.image}" class="card-img-top" alt="${product.name}">
                     <div class="card-body">
