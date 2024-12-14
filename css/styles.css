@@ -475,7 +475,7 @@ form .btn-primary {
 
 
 
-/* Responsividad */
+/* Responsividad en la página */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
